@@ -6,7 +6,7 @@ import os
 import pandas as pd  
 from transformers import GPT2TokenizerFast
 
-
+OPENAI_API_KEY = <YOUR_API_KEY>
 MODEL_NAME = "curie"
 DOC_EMBEDDINGS_MODEL = f"text-search-{MODEL_NAME}-doc-001"
 QUERY_EMBEDDINGS_MODEL = f"text-search-{MODEL_NAME}-query-001"
